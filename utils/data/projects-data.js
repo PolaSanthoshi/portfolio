@@ -37,7 +37,7 @@ export const projectsData = [
    
     {
         id: 6,
-        name: 'AI Powered Test Case Generator Website',
+        name: 'AI Powered Test Case Generator',
         
         description: "Collaborated with a team to design and develop an AI-powered Test Case Generator website tailored to user data.",
         tools: ['Angular', 'Mangodb','Flask'],
