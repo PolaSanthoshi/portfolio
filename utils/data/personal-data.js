@@ -1,6 +1,6 @@
 export const personalData = {
   name: "SANTHOSHI POLA",
-  profile: '/profile.png',
+  profile: './profile.png',
   designation: "Software Developer",
   description: "My name is Santhoshi Pola. I am a professional and enthusiastic programmer.My self-learning attitude has allowed me to explore various domains, from building dynamic, data-driven user interfaces to optimizing website performance and enhancing accessibility to meet WCAG guidelines.I’m committed to bringing innovation, enthusiasm, and efficiency to every development task, ensuring that the final product aligns perfectly with both the business objectives and the end users needs.",
   email: 'polasanthoshi789@gmail.com',

@@ -1,21 +1,10 @@
 const path = require('path')
- 
+const isProd = process.env.NODE_ENV === 'production';
 module.exports = {
-  sassOptions: {
-    includePaths: [path.join(__dirname, 'styles')],
-  },
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'res.cloudinary.com',
-        pathname: '**',
-      },
-      {
-        protocol: 'https',
-        hostname: 'media.dev.to',
-        pathname: '**',
-      },
-    ],
-  },
+  output: "export",
+  basePath: isProd ? '/portfolio' : '',
+  // Set assetPrefix for static files
+  assetPrefix: isProd ? '/portfolio' : '',
+  // Optional: Add trailingSlash to avoid routing issues
+ 
 }
