@@ -24,11 +24,11 @@ async function getData() {
 };
 
 export default async function Home() {
-  const blogs = await getData();
+  // const blogs = await getData();
 
   return (
     <>
-  
+
       <HeroSection />
       <AboutSection />
       <Experience />
