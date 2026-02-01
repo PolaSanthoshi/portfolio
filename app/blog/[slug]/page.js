@@ -1,5 +1,10 @@
-// @flow strict
 import { personalData } from "@/utils/data/personal-data";
+
+export async function generateStaticParams() {
+  return [];
+}
+
+export const dynamicParams = false;
 
 async function getBlog(slug) {
   const res = await fetch(`https://dev.to/api/articles/${personalData.devUsername}/${slug}`)
@@ -12,10 +17,10 @@ async function getBlog(slug) {
   return data;
 };
 
-async function BlogDetails({params}) {
+async function BlogDetails({ params }) {
   const slug = params.slug;
   const blog = await getBlog(slug);
- 
+
   return (
     <div>
     </div>

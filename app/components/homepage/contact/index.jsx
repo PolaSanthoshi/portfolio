@@ -8,6 +8,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { IoLogoGithub, IoMdCall } from "react-icons/io";
 import { MdAlternateEmail } from "react-icons/md";
 import ContactWithoutCaptcha from './contact-without-captcha';
+import ContactWithCaptcha from './contact-with-captcha';
 
 function ContactSection() {
   return (

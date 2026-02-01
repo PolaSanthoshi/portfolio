@@ -8,5 +8,6 @@ export const personalData = {
   address: 'Mahabubnagar, Telangana, India ',
   github: 'https://github.com/PolaSanthoshi',
   linkedIn: 'https://www.linkedin.com/in/santhoshipola/',
+  devUsername: "PolaSanthoshi",
   resume: "https://drive.google.com/file/d/1oxBb-SlV7iXCZhqzQ6hsvheI9YmFzd58/view?usp=sharing"
 }
