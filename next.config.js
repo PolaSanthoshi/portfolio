@@ -6,5 +6,5 @@ module.exports = {
   // Set assetPrefix for static files
   assetPrefix: isProd ? '/portfolio' : '',
   // Optional: Add trailingSlash to avoid routing issues
- 
+  trailingSlash: true,
 }
